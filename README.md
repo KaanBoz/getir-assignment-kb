@@ -69,3 +69,27 @@ JSON data:
     "minCount": 1000,
     "maxCount": 2000
 }
+
+
+JS Example code to call the api
+
+var data = JSON.stringify({
+  "startDate": "2016-12-01",
+  "endDate": "2018-12-30",
+  "minCount": 1000,
+  "maxCount": 2000
+});
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function() {
+  if(this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "https://getir-assignment-kb.herokuapp.com/getir");
+xhr.setRequestHeader("Content-Type", "application/json");
+
+xhr.send(data);
