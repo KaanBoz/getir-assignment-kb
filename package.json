@@ -1,16 +1,22 @@
 {
   "name": "getir-assignment-kb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Assignment for getir",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "jest",
+    "start": "node main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kaan Boz",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.2.2"
   }
 }
