@@ -32,3 +32,16 @@ npm run start
 
 to run tests
 npm run test
+
+a working example can be found here:
+
+POST:
+https://getir-assignment-kb.herokuapp.com/getir
+
+JSON data:
+{
+    "startDate": "2016-12-01",
+    "endDate": "2018-12-30",
+    "minCount": 1000,
+    "maxCount": 2000
+}
