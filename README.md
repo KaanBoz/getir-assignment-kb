@@ -45,7 +45,7 @@ cd getir-assignment-kb
 
 npm i
 
-##create heroku app
+## create heroku app
 
 heroku create
 
