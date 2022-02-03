@@ -89,7 +89,10 @@ POST:
 
 https://getir-assignment-kb.herokuapp.com/getir
 
-JSON data:
+JSON data to post:
+
+
+
 {
     "startDate": "2016-12-01",
     "endDate": "2018-12-30",
