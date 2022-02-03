@@ -1,6 +1,6 @@
-getir assignment by kaan boz
+######getir assignment by kaan boz
 
--get an free account from heroku
+######get an free account from heroku
 
 Heroku: Cloud Application Platform
 
@@ -22,24 +22,21 @@ git --version
 
 git version 2.28.0
 
-
--download the source code from https://github.com/KaanBoz/getir-assignment-kb.git
+######download the source code from https://github.com/KaanBoz/getir-assignment-kb.git
 
 git clone https://github.com/KaanBoz/getir-assignment-kb.git
 
 cd getir-assignment-kb
 
--install dependencies
+######install dependencies
 
 npm i
 
-
--create heroku app
+######create heroku app
 
 heroku create
 
-
--push the app 
+######push the app 
 
 git push heroku master
 
@@ -47,15 +44,15 @@ git push heroku master
 *both git and heroku must be authenticated for this to work.
 
 
-to run the project
+######to run the project
 
 npm run start
 
-to run tests
+######to run tests
 
 npm run test
 
-a working example can be found here:
+######a working example can be found here:
 
 
 POST:
@@ -71,7 +68,7 @@ JSON data:
 }
 
 
-JS Example code to call the api
+######JS Example code to call the api
 
 var data = JSON.stringify({
   "startDate": "2016-12-01",
