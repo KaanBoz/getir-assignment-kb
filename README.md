@@ -89,7 +89,7 @@ POST:
 
 https://getir-assignment-kb.herokuapp.com/getir
 
-JSON data to post:
+example JSON data to post:
 
 
 
